@@ -101,6 +101,18 @@ h1, h2, h3, h4, h5, h6 {
       -webkit-transform: scale(1.2);
       transform: scale(1.2); }
 
+@media (max-width: 1205px) {
+  .container {
+    max-width: 965px; } }
+
+@media (max-width: 1000px) {
+  .container {
+    max-width: 730px; } }
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 90%; } }
+
 header {
   position: fixed;
   top: 0;
@@ -142,6 +154,12 @@ header {
 
 .active {
   border-bottom: 1px solid #fff; }
+
+@media (max-width: 1034px) {
+  .logo {
+    font-size: 24px; }
+  .nav a {
+    margin: 5px 10px; } }
 
 @media (max-width: 768px) {
   header {
@@ -299,7 +317,15 @@ h1 {
   -webkit-transform: translate(-50%, 50%);
   transform: translate(-50%, 50%); }
 
+@media (max-width: 1000px) {
+  .infocards__column {
+    width: 33.333%; } }
+
 @media (max-width: 768px) {
+  .infocards__column {
+    width: 50%; } }
+
+@media (max-width: 380px) {
   .infocards__row {
     margin-right: 0;
     margin-left: 0; }
@@ -427,12 +453,25 @@ h1 {
 .is-checked {
   background: #e6b800; }
 
-@media (max-width: 768px) {
+@media (max-width: 850px) {
+  .element-item {
+    width: 50%;
+    margin-bottom: 80px; } }
+
+@media (max-width: 550px) {
   .grid {
     margin: 0; }
   .element-item {
     width: 100%;
-    margin-bottom: 20px; } }
+    margin-bottom: 30px; } }
+
+@media (max-width: 400px) {
+  .element-item {
+    margin-bottom: 60px; } }
+
+@media (max-width: 350px) {
+  .element-item {
+    margin-bottom: 10px; } }
 
 .news-title {
   font-size: 32px;
