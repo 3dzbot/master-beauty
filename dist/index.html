@@ -5,28 +5,42 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="assets/master.jpg">
     <title>Master Beauty</title>
     <link rel="stylesheet" href="assets/css/font-awesome.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <header>
+    <div class="menu-btn">
+        <span></span>
+    </div>
+    <div class="mobile-menu">
+        <ul class="nav-mobile">
+            <li><a class="" href="#preview">Главная</a></li>
+            <li><a href="#service">Услуги</a></li>
+            <li><a href="#price">Цены</a></li>
+            <li><a href="#gallery">Галерея</a></li>
+            <li><a href="#news">Блог</a></li>
+            <li><a href="#footer">Контакты</a></li>
+        </ul>
+    </div>
     <div class="container header-container">
 <!--        <img src="" alt="" class="logo">-->
-        <div class="logo">Master Beauty</div>
+        <a class="logo" href="#preview">Master Beauty</a>
         <ul class="nav">
-            <li><a class="active" href="#">Главная</a></li>
-            <li><a href="#">Услуги</a></li>
-            <li><a href="#">Прайс</a></li>
-            <li><a href="#">Галерея</a></li>
-            <li><a href="#">Блог</a></li>
-            <li><a href="#">Контакты</a></li>
+            <li><a class="" href="#preview">Главная</a></li>
+            <li><a href="#service">Услуги</a></li>
+            <li><a href="#price">Цены</a></li>
+            <li><a href="#gallery">Галерея</a></li>
+            <li><a href="#news">Блог</a></li>
+            <li><a href="#footer">Контакты</a></li>
         </ul>
     </div>
 </header>
 
 <main>
-    <div class="preview">
+    <section class="preview" id="preview">
         <div class="container">
             <div class="preview-title">
                 <h1>Master Beauty</h1>
@@ -40,12 +54,473 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+    <!--  /.preview  -->
+    <section class="service" id="service">
+        <div class="container">
+            <h3 class="section-title">Наши услуги</h3>
+            <div class="infocards__row">
+                <div class="infocards__column">
+                    <div class="item-infocards">
+                        <div class="item-infocards__image">
+                            <img src="./assets/img/team/9.jpg" alt="image">
+                            <div class="item-infocards__title">
+                                <i class="fas fa-tags"></i>
+                            </div>
+                        </div>
+                        <div class="item-infocards__description">
+                            <span>Массаж</span>
+                            <ul>
+                                <li>Массаж & Коррекция&nbsp;фигуры & Обёртывания & ИК&nbsp;Сауна</li>
+                                <li>Кавитация &  RF&nbsp;лифтинг   &  Мио&nbsp;стимуляция &  Прессотерапия</li>
+                                <li>Вакуумно-роликовый&nbsp;массаж</li>
+                            </ul>
+<!--                            <p>Массаж & Коррекция Фигуры & Обёртывания & ИК Сауна-->
+<!--                                Кавитация &  RF лифтинг   &  Мио стимуляция &  Прессотерапия     Вакуумно-роликовый массаж</p>-->
+                        </div>
+                    </div>
+                </div>
+                <div class="infocards__column">
+                    <div class="item-infocards">
+                        <div class="item-infocards__image">
+                            <img src="./assets/img/team/10.jpg" alt="image">
+                            <div class="item-infocards__title">
+                                <i class="fas fa-tags"></i>
+                            </div>
+                        </div>
+                        <div class="item-infocards__description">
+<!--                            <h3>Lash сервис</h3>-->
+                            <span>Косметология</span>
+                            <ul>
+                                <li>Чистка&nbsp;лица & Пилинги & Массаж&nbsp;лица</li>
+                                <li>Уходовые&nbsp;процедуры & Аппаратная&nbsp;косметология</li>
+                                <li>Подбор домашнего ухода</li>
+                            </ul>
+<!--                            <p>Чистка лица  &  Пилинги  &  Массаж лица-->
+<!--                                Уходовые процедуры &  Аппаратная косметология-->
+<!--                                Подбор домашнего ухода-->
+<!--                            </p>-->
+                        </div>
+                    </div>
+                </div>
+                <div class="infocards__column">
+                    <div class="item-infocards">
+                        <div class="item-infocards__image">
+                            <img src="./assets/img/team/13.jpg" alt="image">
+                            <div class="item-infocards__title">
+                                <i class="fas fa-tags"></i>
+                            </div>
+                        </div>
+                        <div class="item-infocards__description">
+                            <!--                            <h3>Косметология</h3>-->
+                            <span>Аппаратный массаж</span>
+                            <ul>
+                                <li>Вакуумно-роликовый массаж</li>
+                                <li>RF лифтинг тела</li>
+                                <li>Прессотерапия</li>
+                                <!--                                <li>Миостимуляция</li>-->
+                                <li>Кавитация</li>
+                                <li>ИК Сауна</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="infocards__column">
+                    <div class="item-infocards">
+                        <div class="item-infocards__image">
+                            <img src="./assets/img/team/12.jpg" alt="image">
+                            <div class="item-infocards__title">
+                                <i class="fas fa-tags"></i>
+                            </div>
+                        </div>
+                        <div class="item-infocards__description">
+                            <!--                            <h3>Косметология</h3>-->
+                            <span>Обертывание</span>
+                            <ul>
+                                <li>Шоколадное</li>
+                                <li>Водоросливое</li>
+                                <li>С ретинолом</li>
+                                <li>Антицелюлитное</li>
+                                <li>Розовая глина</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="infocards__column">
+                    <div class="item-infocards">
+                        <div class="item-infocards__image">
+                            <img src="./assets/img/team/1.jpg" alt="image">
+                            <div class="item-infocards__title">
+                                <i class="fas fa-tags"></i>
+                            </div>
+                        </div>
+                        <div class="item-infocards__description">
+                            <!--                            <h3>Татуаж</h3>-->
+                            <span>Ногтевой сервис</span>
+                            <ul>
+                                <li>Маникюр & Педикюр & Наращивание ногтей</li>
+                                <li>Укрепление ногтей</li>
+                            </ul>
+                            <!--                            <p>Маникюр &   Педикюр  &   Наращивание ногтей-->
+                            <!--                                Укрепление ногтей-->
+                            <!--                            </p>-->
+                        </div>
+                    </div>
+                </div>
+                <div class="infocards__column">
+                    <div class="item-infocards">
+                        <div class="item-infocards__image">
+                            <img src="./assets/img/team/14.jpg" alt="image">
+                            <div class="item-infocards__title">
+                                <i class="fas fa-tags"></i>
+                            </div>
+                        </div>
+                        <div class="item-infocards__description">
+<!--                            <h3>Ресницы</h3>-->
+                            <span>Ресницы</span>
+                            <ul>
+                                <li>Наращивания & Ламинированные & Ботокс</li>
+                                <li>Биозавивка & Омбре</li>
+                            </ul>
+<!--                            <p>Наращивания  & Ламинированные  &  Ботокс-->
+<!--                                Биозавивка &  Омбре-->
+<!--                            </p>-->
+                        </div>
+                    </div>
+                </div>
+                <div class="infocards__column">
+                    <div class="item-infocards">
+                        <div class="item-infocards__image">
+                            <img src="./assets/img/team/5.jpg" alt="image">
+                            <div class="item-infocards__title">
+                                <i class="fas fa-tags"></i>
+                            </div>
+                        </div>
+                        <div class="item-infocards__description">
+<!--                            <h3>Визаж</h3>-->
+                            <span>Брови</span>
+                            <ul>
+                                <li>Моделирование & Коррекция</li>
+                                <li>Покраска&nbsp;бровей хной или краской</li>
+                            </ul>
+<!--                            <p>Моделирование  &   Коррекция-->
+<!--                                Покраска бровей хной или краской-->
+<!--                            </p>-->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="infocards__column">
+                    <div class="item-infocards">
+                        <div class="item-infocards__image">
+                            <img src="./assets/img/team/11.jpg" alt="image">
+                            <div class="item-infocards__title">
+                                <i class="fas fa-tags"></i>
+                            </div>
+                        </div>
+                        <div class="item-infocards__description">
+<!--                            <h3>Косметология</h3>-->
+                            <span>Шугаринг</span>
+                            <p>Шугаринг сахарной пастой & Пилинг от вросших волос</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /.service -->
+    <section class="price" id="price">
+        <div class="container">
+            <h3 class="section-title">Прайс на услуги студии</h3>
+            <div class="price-column">
+                <div class="price-row">
+                    <button class="accordion">Массаж & Коррекция фигуры</button>
+                    <div class="panel">
+                        <ul>
+                            <li>СПИНЫ (45 мин) - <span>300 грн</span></li>
+                            <li>ГОЛОВЫ (20 мин) - 150 грн</li>
+                            <li>Шейно-воротниковой зоны (20 мин) - 200 грн</li>
+                            <li>ОБЩИЙ массаж ТЕЛА  (60 мин) - 450 грн </li>
+                            <li>Бразильский массаж (бамбуковыми палочками) - 300 грн</li>
+                        </ul>
+                        <ul>
+                            <li>АНТИЦЕЛЮЛИТНЫЙ  (60 мин) - 420 грн</li>
+                            <li>МЕДОВЫЙ массаж (всеготела) - 500 грн</li>
+                            <li>МЕДОВЫЙ массаж (ноги+бедра+живот) - 400 грн</li>
+                            <li>Массаж ЛИЦА - 300-500 грн</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="price-row">
+                    <button class="accordion">Аппаратные методы массажа</button>
+                    <div class="panel">
+                        <ul>
+                            <li>Вакуумно-роликовый массаж (ноги+бедра+живот) - 200 грн</li>
+                            <li>Вакуумно-роликовый массаж (ноги+бедра+живот+спина+руки) - 350 грн</li>
+                            <li>RF лифтинг тела (30 мин) - 300 грн</li>
+                            <li>Прессотерапия (40 мин) - 200 грн</li>
+                            <li>Миостимуляция - 300 грн</li>
+                            <li>Кавитация (30 мин) - 400 грн</li>
+                            <li>ИК Сауна (20-30 мин) - 200 грн</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="price-row">
+                    <button class="accordion">Обертывание</button>
+                    <div class="panel">
+                        <ul>
+                            <li>ШОКОЛАДНОЕ - 400-650 грн</li>
+                            <li>ВОДОРОСЛИВОЕ - 400-650 грн</li>
+                            <li>С РЕТИНОЛОМ - 650 грн</li>
+                            <li>АНТИЦЕЛЮЛИТНОЕ - 400-650 грн</li>
+                            <li>РОЗОВАЯ ГЛИНА - 400-650 грн</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="price-row">
+                    <button class="accordion">Косметология</button>
+                    <div class="panel">
+                        <ul>
+                            <li>Механическая чистка лица - 500 грн</li>
+                            <li>Ультразвуковая чистка лица - 400 грн</li>
+                            <li>Комбинированая чистка лица - 580 грн</li>
+                            <li>Дарсанваль - 100 грн</li>
+                            <li>Пилинг (поверхностный) - от 500 грн</li>
+                            <li>Пилинг биоревитализант Kemikum - 800 грн</li>
+                            <li>Маски  (по проблеме) - от 300 грн</li>
+                        </ul>
+                        <ul>
+                            <li>Уходовые процедуры - от 500 грн</li>
+                            <li>Глубокое УВЛАЖНЕНИЕ кожи - от 600 грн</li>
+                            <li>Миостимуляция лица - 300 грн</li>
+                            <li>RF лифтинг (лица, шеи, декольте) (1 зона) - 300 грн </li>
+                        </ul>
+                        <h3>Консультация по подбору домашнего ухода!</h3>
+                        <ul>
+                            <li>Массаж лица - 300 грн</li>
+                            <li>Массаж лица с уходом по типу кожи - 450 грн</li>
+                            <li>МИОЛИФТИНГОВЫЙ массаж лица - 500 грн</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="price-row">
+                    <button class="accordion">Маникюр</button>
+                    <div class="panel">
+                        <ul>
+                            <li>Снятие гель-лака - от 50 грн</li>
+                            <li>Снятие геля/акрила - от 100 грн</li>
+                            <li>Ремонт 1 ногтя - от 15 грн</li>
+                            <li>Аппаратный/комбинир.  маникюр - 150 грн</li>
+                            <li>Покрытие гель-лаком (однотонное) - 150 грн</li>
+                            <li>Укрепление базой - от 100 грн</li>
+                            <li>Укрепление гелем - 100-150 грн</li>
+                            <li>Укрепл. акриловой пудрой(10/1 ноготь) - 80/15грн</li>
+                            <li>Френч, лунки - 200 грн</li>
+                            <li>Дизайн  (1ноготь) ( втирка, фольга, блестки, кошка, пузырьки и т.д.) - 10-30 грн</li>
+                            <li>Изменение формы (к маникюру без покрытия) - 50 грн</li>
+                            <li>Наращивание ногтей - 350 грн</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="price-row">
+                    <button class="accordion">Педикюр</button>
+                    <div class="panel">
+                        <ul>
+                            <li>Снятие гель-лака (без покрытия) - 100 грн</li>
+                            <li>Снятие (с последующим покрытием) - 50 грн</li>
+                        </ul>
+                        <h3>Женский:</h3>
+                        <ul>
+                            <li>Комбинированный/апаратный+пальчики - 200 грн</li>
+                            <li>Пальцы - 120 грн</li>
+                            <li>Стопа - 80-100 грн</li>
+                            <li>Покрытие гель-лака - 120 грн</li>
+                            <li>Дизайн  (1 ноготь)  ( втирка, камни, фольга - 10-30 грн</li>
+                            <li>Френч - 150 грн</li>
+                        </ul>
+                        <h3>Мужской:</h3>
+                        <ul>
+                            <li>Апаратный/комбинированный - 250 грн</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="price-row">
+                    <button class="accordion">Ресницы</button>
+                    <div class="panel">
+                        <ul>
+                            <li>Снятие ресниц (с последующим наращиванием) - 50 грн</li>
+                            <li>Снятие рсниц (без наращивания) - 100 грн</li>
+                            <li>Наращивание ресниц (классика) - 450 грн</li>
+                            <li>Наращивание ресниц 2-D - 500 грн</li>
+                            <li>Наращивание ресниц 3-D - 550 грн</li>
+                            <li>Омбре эффект - 600 грн</li>
+                            <li>Наращивание уголков - 250 грн</li>
+                            <li>Цветные вставки/блестящие ресницы - от 50 грн</li>
+                            <li>Стразы (1 шт.) - 20 грн</li>
+                            <li>Корекция ресниц (2-3 недели носки) - от 300 грн</li>
+                            <li>Ламинирование ресниц - 600 грн</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="price-row">
+                    <button class="accordion">БРОВИ</button>
+                    <div class="panel">
+                        <ul>
+                            <li>ЛАМИНИРОВАНИЕ бровей (долговременная укладка) - 400 грн</li>
+                            <li>Корекция бровей (без окрашивания) - 130 грн</li>
+                            <li>Окрашивание бровей (без корекции) - 130 грн</li>
+                            <li>Моделирование и окрашивание бровей - 250 грн</li>
+                            <li>Окрашивание ресниц - 150 грн</li>
+                            <li>Корекция + окрашивание бровей + ресниц (краской) - 300 грн</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="price-row">
+                    <button class="accordion">Шугаринг</button>
+                    <div class="panel">
+                        <ul>
+                            <li>Бикини - 200 грн</li>
+                            <li>Глубокое бикини - 300 грн</li>
+                            <li>Ягодицы - 50-70 грн</li>
+                            <li>Живот - 100 грн</li>
+                            <li>Спина - 150-300 грн</li>
+                            <li>Ноги до колен - 150-200 грн</li>
+                            <li>Ноги полностью - 300-350 грн</li>
+                            <li>Подмышки - 80 грн</li>
+                            <li>Руки - 160 грн</li>
+                            <li>Усики - 60 грн</li>
+                            <li>Пилинг бикини от вросших волос - 100 грн</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /.price -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <h3 class="section-title">Галерея</h3>
+            <div class="button-group filters-button-group">
+                <button class="button-gallery is-checked" data-filter="*">Все</button>
+                <button class="button-gallery" data-filter=".metal">Массаж</button>
+                <button class="button-gallery" data-filter=".transition">Ногти</button>
+                <button class="button-gallery" data-filter=".alkali, .alkaline-earth">Кабинеты</button>
+                <button class="button-gallery" data-filter=":not(.transition)">Сотрудники</button>
+            </div>
+            <div class="grid">
+                <div class="element-item transition metal one" data-category="transition">
+                    <h3 class="name">Mercury</h3>
+                    <img src="assets/img/interyer/1.jpg" alt="image">
+                </div>
+                <div class="element-item post-transition metal " data-category="post-transition">
+                    <h3 class="name">Lead</h3>
+                    <img src="assets/img/interyer/4.jpg" alt="image">
+                </div>
+                <div class="element-item transition metal " data-category="transition">
+                    <h3 class="name">Gold</h3>
+                    <img src="assets/img/interyer/5.jpg" alt="image">
+                </div>
+                <div class="element-item alkali metal " data-category="alkali">
+                    <h3 class="name">Potassium</h3>
+                    <img src="assets/img/interyer/6.jpg" alt="image">
+                </div>
+                <div class="element-item transition metal " data-category="transition">
+                    <h3 class="name">Cadmium</h3>
+                    <img src="assets/img/interyer/8.jpg" alt="image">
+                </div>
+                <div class="element-item alkaline-earth metal " data-category="alkaline-earth">
+                    <h3 class="name">Calcium</h3>
+                    <img src="assets/img/interyer/9.jpg" alt="image">
+                </div>
+                <div class="element-item transition metal " data-category="transition">
+                    <h3 class="name">Rhenium</h3>
+                    <img src="assets/img/interyer/10.jpg" alt="image">
+                </div>
+                <div class="element-item post-transition metal " data-category="post-transition">
+                    <h3 class="name">Thallium</h3>
+                    <img src="assets/img/interyer/11.jpg" alt="image">
+                </div>
+                <div class="element-item metalloid " data-category="metalloid">
+                    <h3 class="name">Antimony</h3>
+                    <img src="assets/img/interyer/12.jpg" alt="image">
+                </div>
+                <div class="element-item transition metal " data-category="transition">
+                    <h3 class="name">Cobalt</h3>
+                    <img src="assets/img/interyer/1.jpg" alt="image">
+                </div>
+                <div class="element-item diatomic nonmetal " data-category="diatomic">
+                    <h3 class="name">Nitrogen</h3>
+                    <img src="assets/img/interyer/4.jpg" alt="image">
+                </div>
+                <div class="element-item actinoid metal inner-transition " data-category="actinoid">
+                    <h3 class="name">Uranium</h3>
+                    <img src="assets/img/interyer/9.jpg" alt="image">
+                </div>
+<!--                <div class="element-item actinoid metal inner-transition " data-category="actinoid">-->
+<!--                    <h3 class="name">Plutonium</h3>-->
+<!--                    <p class="symbol">Pu</p>-->
+<!--                    <p class="number">94</p>-->
+<!--                    <p class="weight">(244)</p>-->
+<!--                </div>-->
+            </div>
+        </div>
+    </section>
+    <!-- /.gallery -->
+    <section class="news" id="news">
+        <div class="container">
+            <h3 class="section-title">Публикации</h3>
+            <div class="news-title">В нашем салоне появились подарочные сертификаты!</div>
+            <div class="news-content">
+                <img src="./assets/img/public/news1.jpg" alt="image">
+                <div class="news-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad aliquid commodi cumque deserunt dolorem dolorum, ducimus enim explicabo facilis impedit itaque labore, officiis quisquam sequi, totam vel veniam voluptates.</div>
+            </div>
+        </div>
+    </section>
+    <!-- /.news -->
 </main>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<footer id="footer">
+    <div class="container">
+        <h3 class="section-title">Контакты</h3>
+        <div class="infocards__row">
+            <div class="infocards__column">
+                <h2 class="footer-title">Мы в социальных сетях</h2>
+                <ul class="footer-social">
+                    <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                    <li><a href=""><i class="fab fa-telegram-plane"></i></a></li>
+                    <li><a href=""><i class="fab fa-viber"></i></a></li>
+                </ul>
+            </div>
+            <div class="infocards__column">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2747.2697522925146!2d30.68210271579217!3d46.48297077290707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c631fe2c1a1945%3A0xf4a153fd808540d8!2z0YPQuy4g0JzQuNGF0LDQuNC70LAg0JPRgNGD0YjQtdCy0YHQutC-0LPQviwgNDEsINCe0LTQtdGB0YHQsCwg0J7QtNC10YHRgdC60LDRjyDQvtCx0LvQsNGB0YLRjCwgNjUwMDA!5e0!3m2!1sru!2sua!4v1587134537989!5m2!1sru!2sua" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+            <div class="infocards__column">
+                <h2 class="footer-title">Связаться с нами</h2>
+                <ul class="footer-contact">
+                    <li>096-123-45-78</li>
+                    <li>096-123-45-78</li>
+                    <li>г.Одесса, ул.Грушевского 41</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-text">&copy; Copyright @zoduaks 2020. All rights reserved.</div>
+    </div>
+</footer>
+
+<a href="#preview" class="btn-top">
+    <i class="fas fa-arrow-circle-up"></i>
+</a>
+
+<!--jquery library-->
+<script src="assets/js/jquery-3.5.0.min.js"></script>
+<!--isotope gallery -->
+<script src="assets/js/jquery.isotope.js"></script>
+<!--vegas background plugin-->
 <script src="assets/js/vegas/jquery.vegas.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs=" crossorigin="anonymous"></script>
+<!--font awesome plugin script-->
+<script src="assets/js/all.min.js"></script>
+<!--main script-->
 <script src="script.js"></script>
 </body>
 </html>
